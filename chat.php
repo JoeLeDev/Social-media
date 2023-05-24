@@ -31,7 +31,7 @@
 
 	<div class="chat">
 		<div class="chatheader">
-			<div class="chat_arrow_back_name" >
+			<div class="chat_arrow_back_name">
 				<a href="#" class="chat_return">
 					<span class="material-icons-outlined material-icons-round return_icon">arrow_back</span>
 				</a>
@@ -50,11 +50,40 @@
 		</div>
 
 		<div class="messages">
-			<div class="message message-sent">
-				<p>Hello, how are you?</p>
+			<div class="msg-sent">
+				<div class="message message-sent">
+					<p>Hello, how are you?</p>
+				</div>
+				<div class="edit-button"><span class="material-symbols-outlined">more_horiz</span>
+					<ul class="menu2 menu2_sent">
+						<li><a href=""><span class="material-icons-outlined">edit</span>Modifier</a></li>
+						<li><a href=""><span class="material-icons-outlined">delete</span>Supprimer</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="message message-received">
-				<p>I'm doing well, thank you!</p>
+
+			<div class="msg-sent">
+				<div class="message message-sent">
+					<p>Hello, how are you?</p>
+				</div>
+				<div class="edit-button"><span class="material-symbols-outlined">more_horiz</span>
+					<ul class="menu2 menu2_sent">
+						<li><a href=""><span class="material-icons-outlined">edit</span>Modifier</a></li>
+						<li><a href=""><span class="material-icons-outlined">delete</span>Supprimer</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="msg-received">
+				<div class="message message-received">
+					<p>I'm doing well, thank you!</p>
+				</div>
+				<div class="edit-button"><span class="material-symbols-outlined">more_horiz</span>
+					<ul class="menu2 menu2_received">
+						<li><a href=""><span class="material-icons-outlined">edit</span>Modifier</a></li>
+						<li><a href=""><span class="material-icons-outlined">delete</span>Supprimer</a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="message message-received">
 				<p>I'm doing well, thank you!</p>
@@ -97,6 +126,7 @@
 			</div>
 			<div class="message message-sent">
 				<p>I'm fine aswell</p>
+
 			</div>
 		</div>
 		<div class="send-icons">
